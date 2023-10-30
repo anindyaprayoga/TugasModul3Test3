@@ -30,6 +30,19 @@ public class Main {
         System.out.println(abcCompany.getPrice());
         System.out.println("Harga rata-rata");
         System.out.println(abcCompany.getAveragePrice());
+
+        System.out.println("Jumlah saham anda saat ini");
+        System.out.println(abcCompany.getShares());
+        System.out.println("Harga saham terakhir");
+        System.out.println(abcCompany.getPrice());
+        System.out.println("Harga rata-rata");
+        System.out.println(abcCompany.getAveragePrice());
+
+        // Panggil metode baru
+        System.out.println("Total modal");
+        System.out.println(abcCompany.getCapital());
+        System.out.println("Keuntungan atau kerugian");
+        System.out.println(abcCompany.getProfitLoss());
     }
 }
 

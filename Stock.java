@@ -56,4 +56,24 @@ public class Stock {
     public double getAveragePrice() {
         return capital / getShares();
     }
+
+        /**
+         * Metode untuk mendapatkan total modal.
+         *
+         * @return total modal
+         */
+        public double getCapital() {
+            return capital;
+        }
+
+        /**
+         * Metode untuk mendapatkan keuntungan atau kerugian.
+         *
+         * @return keuntungan atau kerugian
+         */
+        public double getProfitLoss() {
+            return (price * shares) - capital;
+        }
+    }
+
 }
